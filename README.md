@@ -1,16 +1,25 @@
-# postsapp_clean
+📰 Posts App - Flutter Clean Architecture
 
-A new Flutter project.
+A simple Flutter application built using **Clean Architecture**, designed to fetch, add, update, and delete posts via a remote API.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+📱 Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- ✅ Display a list of posts
+- ➕ Add a new post
+- 📝 Edit an existing post
+- 🗑️ Delete a post
+- 🌐 Check for internet connection before API calls
+- 💾 Use of local storage with `shared_preferences`
+- 📡 Handle API calls using `http` package
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+ 🧱 Project Architecture
+
+This project follows **Clean Architecture** principles and is structured into three main layers:
+
+The app follows Clean Architecture for better scalability and testability.
+Ideal for learning and practicing advanced Flutter app structurin
+
+
